@@ -1,12 +1,12 @@
 # NLP_Training5
 ---
 ### To Training tensorflow model
-```
+```python
 trainModel()
  ```
  ---
  ### To Predict the string
- ```
+ ```python
   #load test Data
   testList = readData("translation2019zh_valid.json")
   txt_list = exportDataWithFormat(testList)
